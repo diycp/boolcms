@@ -1,0 +1,25 @@
+[ 2016-06-28T08:32:26+08:00 ] ::1 /bool_cms/Public/images/icon_no.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-28T08:32:26+08:00 ] ::1 /bool_cms/Public/images/icon_no.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-28T08:32:27+08:00 ] ::1 /bool_cms/Public/images/icon_no.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-28T08:32:32+08:00 ] ::1 /bool_cms/Public/images/icon_no.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+
+[ 2016-06-28T08:32:33+08:00 ] ::1 /bool_cms/Public/images/icon_no.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+

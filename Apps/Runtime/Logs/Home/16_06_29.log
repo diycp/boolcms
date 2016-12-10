@@ -1,0 +1,114 @@
+[ 2016-06-29T08:29:37+08:00 ] ::1 /bool_cms/css/style.css
+ERR: 无法加载控制器:Css
+
+[ 2016-06-29T08:29:37+08:00 ] ::1 /bool_cms/js/jquery.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-06-29T08:29:37+08:00 ] ::1 /bool_cms/js/slide_show.js
+ERR: 无法加载控制器:Js
+
+[ 2016-06-29T08:29:37+08:00 ] ::1 /bool_cms/js/global.js
+ERR: 无法加载控制器:Js
+
+[ 2016-06-29T08:30:22+08:00 ] ::1 /bool_cms/css/style.css
+ERR: 无法加载控制器:Css
+
+[ 2016-06-29T08:31:18+08:00 ] ::1 /bool_cms/css/style.css
+ERR: 无法加载控制器:Css
+
+[ 2016-06-29T08:58:49+08:00 ] ::1 /bool_cms/index.php',%20'boolcms')
+ERR: 无法加载控制器:Index.php', 'boolcms')
+
+[ 2016-06-29T10:38:30+08:00 ] ::1 /bool_cms/
+ERR: 1146:La table 'boolcms.bool_admin\_menu' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `bool_admin\_menu`
+
+[ 2016-06-29T13:55:09+08:00 ] ::1 /bool_cms/index.php//pagepage/id/2/parent_id/3
+ERR: 非法操作:pagepage
+
+[ 2016-06-29T14:52:57+08:00 ] ::1 /bool_cms/index.php/Cont/id/0/parent_id/18
+ERR: 非法操作:Cont
+
+[ 2016-06-29T15:04:53+08:00 ] ::1 /bool_cms/index.php/page/id/3/parent_id/4
+ERR: 1052:Champ: 'parent_id' dans where clause est ambigu
+ [ SQL语句 ] : SELECT a.*,b.cat_name FROM bool_menu a left join bool_menu as b on a.parent_id=b.child_id  WHERE (  parent_id ) AND (  4 ) 
+
+[ 2016-06-29T15:06:00+08:00 ] ::1 /bool_cms/index.php/page/id/3/parent_id/4
+ERR: 1052:Champ: 'parent_id' dans where clause est ambigu
+ [ SQL语句 ] : SELECT a.*,b.cat_name FROM bool_menu a left join bool_menu as b on a.parent_id=b.child_id  WHERE (  parent_id ) AND (  4 ) 
+
+[ 2016-06-29T15:10:10+08:00 ] ::1 /bool_cms/index.php/css/style.css
+ERR: 非法操作:css
+
+[ 2016-06-29T15:10:10+08:00 ] ::1 /bool_cms/index.php/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-06-29T15:10:10+08:00 ] ::1 /bool_cms/index.php/js/global.js
+ERR: 非法操作:js
+
+[ 2016-06-29T15:16:50+08:00 ] ::1 /bool_cms/index.php/lists
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `bool_category` WHERE (  a.parent_id ) AND (  ) 
+
+[ 2016-06-29T15:16:58+08:00 ] ::1 /bool_cms/index.php/Cont/id/0/parent_id/18
+ERR: 非法操作:Cont
+
+[ 2016-06-29T15:17:32+08:00 ] ::1 /bool_cms/index.php/lists/id/1
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `bool_category` WHERE (  a.parent_id ) AND (  ) 
+
+[ 2016-06-29T15:18:04+08:00 ] ::1 /bool_cms/index.php/lists/id/1
+ERR: 1054:Champ 'a.parent_id' inconnu dans where clause
+ [ SQL语句 ] : SELECT * FROM `bool_category` WHERE a.parent_id = 1 
+
+[ 2016-06-29T15:18:22+08:00 ] ::1 /bool_cms/index.php/lists/id/1
+ERR: 1054:Champ 'a.parent_id' inconnu dans where clause
+ [ SQL语句 ] : SELECT * FROM `bool_category` WHERE a.parent_id = 1 
+
+[ 2016-06-29T15:18:52+08:00 ] ::1 /bool_cms/index.php/lists/id/2
+ERR: 1054:Champ 'a.parent_id' inconnu dans where clause
+ [ SQL语句 ] : SELECT * FROM `bool_category` WHERE a.parent_id = 2 
+
+[ 2016-06-29T15:25:28+08:00 ] ::1 /bool_cms/index.php/lists/id/2
+ERR: Think\Model:content方法不存在！
+
+[ 2016-06-29T15:36:02+08:00 ] ::1 /bool_cms/index.php/lists/id/2
+ERR: 1054:Champ 'is_top' inconnu dans order clause
+ [ SQL语句 ] : SELECT * FROM `bool_category` WHERE `parent_id` = 2 ORDER BY is_top asc,add_time desc 
+
+[ 2016-06-29T15:36:15+08:00 ] ::1 /bool_cms/index.php/lists/id/2
+ERR: 1064:Erreur de syntaxe près de 'add_time desc' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `bool_category` WHERE `parent_id` = 2 ORDER BY is_top asc add_time desc 
+
+[ 2016-06-29T15:36:28+08:00 ] ::1 /bool_cms/index.php/lists/id/2
+ERR: 1054:Champ 'is_top' inconnu dans order clause
+ [ SQL语句 ] : SELECT * FROM `bool_category` WHERE `parent_id` = 2 ORDER BY is_top asc,add_time desc 
+
+[ 2016-06-29T15:37:18+08:00 ] ::1 /bool_cms/index.php/lists/id/2
+ERR: 1054:Champ 'is_top' inconnu dans order clause
+ [ SQL语句 ] : SELECT * FROM `bool_category` WHERE `parent_id` = 2 ORDER BY is_top asc,add_time 
+
+[ 2016-06-29T15:37:27+08:00 ] ::1 /bool_cms/index.php/lists/id/2
+ERR: 1054:Champ 'is_top' inconnu dans order clause
+ [ SQL语句 ] : SELECT * FROM `bool_category` WHERE `parent_id` = 2 ORDER BY is_top asc 
+
+[ 2016-06-29T15:57:19+08:00 ] ::1 /bool_cms/index.php/lists/id/3
+ERR: 1054:Champ 'a.id' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM bool_content a left join bool_content_desc as b on a.cont_id=b.cont_id  WHERE a.id = '3' ORDER BY is_top asc ,add_time desc LIMIT 1  
+
+[ 2016-06-29T15:57:32+08:00 ] ::1 /bool_cms/index.php/lists/id/3
+ERR: 1054:Champ 'a.id' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM bool_content a left join bool_content_desc as b on a.cont_id=b.cont_id  WHERE a.id = '3' LIMIT 1  
+
+[ 2016-06-29T15:58:27+08:00 ] ::1 /bool_cms/index.php/page/id//parent_id/18
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT a.*,b.cat_name as parent_name FROM bool_menu a left join bool_menu as b on a.parent_id=b.child_id  WHERE (  a.parent_id ) AND (  ) 
+
+[ 2016-06-29T16:12:22+08:00 ] ::1 /bool_cms/index.php/page/id/2/parent_id/%E8%BF%99%E6%98%AF%E9%A6%96%E9%A1%B511111
+ERR: 1054:Champ '这是首页11111' inconnu dans where clause
+ [ SQL语句 ] : SELECT a.*,b.cat_name as parent_name FROM bool_menu a left join bool_menu as b on a.parent_id=b.child_id  WHERE (  a.parent_id ) AND (  这是首页11111 ) 
+
+[ 2016-06-29T16:12:26+08:00 ] ::1 /bool_cms/index.php/page/id/2/parent_id/%E8%BF%99%E6%98%AF%E9%A6%96%E9%A1%B511111
+ERR: 1054:Champ '这是首页11111' inconnu dans where clause
+ [ SQL语句 ] : SELECT a.*,b.cat_name as parent_name FROM bool_menu a left join bool_menu as b on a.parent_id=b.child_id  WHERE (  a.parent_id ) AND (  这是首页11111 ) 
+
